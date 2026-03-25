@@ -9,7 +9,7 @@ export const Home = () => {
         className="d-flex align-items-center position-relative" 
         style={{ 
           minHeight: '85vh',
-          background: `linear-gradient(rgba(241, 241, 241, 0.7), rgba(9, 9, 9, 0.9)), url('https://images.unsplash.com/photo-1521510895915-16986c547626?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat`
+          background: `linear-gradient(rgba(241, 241, 241, 0.7), rgba(9, 9, 9, 0.9)), url('https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&q=80&w=1920') center/cover no-repeat`
         }}
       >
         <div className="container text-center text-white position-relative z-index-1">
@@ -42,7 +42,7 @@ export const Home = () => {
             {/* Tarjeta de Vuelo 1 */}
             <div className="col-md-5">
               <div className="card h-100 border-0 shadow-sm rounded-4 overflow-hidden" style={{ transition: 'transform 0.3s' }}>
-                <img src="https://images.unsplash.com/photo-1533230677134-927181c0eb3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="card-img-top" alt="Vuelo Recreativo" style={{ height: '250px', objectFit: 'cover' }} />
+                <img src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&q=80&w=800" className="card-img-top" alt="Vuelo Recreativo" style={{ height: '250px', objectFit: 'cover' }} />
                 <div className="card-body p-4 text-center">
                   <h3 className="h4 mb-3">Vuelo Recreativo</h3>
                   <p className="text-muted mb-4">15 minutos surcando los cielos con un piloto experto certificado. Ideal para tu primera vez en las nubes.</p>
